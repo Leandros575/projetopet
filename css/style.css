@@ -1,0 +1,199 @@
+body { 
+    background: #f2f2f2;
+    margin: 0px auto;
+}
+
+#about { 
+    background-color: #e0d6fd;
+    display: flex;
+}
+
+header { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #B8B9E6;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+header .logo { 
+    width: 10%;
+}
+
+header .logo img { 
+}
+
+header .menu { 
+    margin: 0 auto;
+}
+
+header .menu ul { 
+    display: flex;
+    list-style: none;
+}
+
+
+header .menu li { 
+    padding: 20px;
+}
+
+
+header .menu li a { 
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+
+
+header .menu a:hover { 
+    border-bottom: 2.5px solid #F3CBFE ;
+    padding: 10px;
+    color: #639;
+}
+
+
+#about .container { 
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+#about .container .info { 
+    width: 50%;
+
+}
+
+#about .container .info h2 { 
+    font-size: 80px;
+}
+
+#about .container .info p { 
+    font-size: 18px;
+}
+
+#about .container .info button { 
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    background: #ffff7a;
+}
+
+#about .container .info button a { 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#about .container .img {
+    width: 50%;
+}
+
+#about .container .img img { 
+    width: 100%;
+}
+
+
+#about-1 { 
+    background-color: #B8B9E6;
+}
+
+
+#about-1 .container{ 
+    width: 980px;
+    margin: 0px auto;
+    display: flex;
+    padding-top: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+
+#about-1 .container .titulo { 
+    width: 100%;
+}
+
+
+#about-1 .container .titulo h1 { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+#about-1 .container .titulo p { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 0px 0px 48px 0px;
+}
+
+#about-1 .container .titulo .p-2 { 
+    padding: 90px 0px 60px 0px;
+}
+
+
+#about-1 .container .titulo hr { 
+    width: 80%;
+}
+
+
+
+/*responsivel para telas menores. */
+
+@media screen and (max-width: 768px){
+    #about { 
+        background-color: red;
+        display: flex;
+    }
+
+    
+#about .container { 
+    width: 1366px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+
+    flex-wrap: wrap;
+}
+
+#about .container .info { 
+    width: 100%;
+    margin-bottom: 36px;
+    padding: 0 16px;
+}
+
+#about .container .info h2 { 
+    font-size: 40px;
+}
+
+#about .container .info p { 
+    font-size: 18px;
+}
+
+#about .container .info button { 
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    background: #ffff7a;
+}
+
+#about .container .img {
+    width: 100%;
+}
+
+#about .container .img img { 
+    width: 100%;
+    border-radius: 10px;
+}
+}
