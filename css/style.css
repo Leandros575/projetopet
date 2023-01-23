@@ -167,6 +167,7 @@ header .menu a:hover {
     padding: 0px 0px 0px 0px;
     margin: 0px 19px 0px 0px;
     border: 1px solid #D9D8D7;
+    width: 598px;
 }
 
 #about-2 .card-2 {
@@ -223,7 +224,10 @@ header .menu a:hover {
 
 #about-2 .container .card-1 .card-body p { 
     font-size: 15px;
+    padding: 0px 0px 0px 20px;
 }
+
+
 
 
 #about-2 .container .card-2 .card-body h1 { 
@@ -238,7 +242,7 @@ header .menu a:hover {
 
 
 #about-2 .container .card-3 .card-body p { 
-    line
+
 }
 
 
