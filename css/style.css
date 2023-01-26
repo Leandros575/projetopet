@@ -263,6 +263,7 @@ header .menu a:hover {
 
 #about-3 { 
     width: 100%;
+    background-color: #eeedeb;
 }
 
 #about-3 .container {
@@ -274,24 +275,29 @@ header .menu a:hover {
 
 
 #about-3 .container .col-1 { 
-    background-color: red;
     display: flex;
-
+    height: 100%;
 }
 
 #about-3 .container .col-1 img { 
-    width: 66%;
-    height: 42%;
+    width: 50%;
+    height: 34%;
+    margin: 0 auto;
+    height: 100%;
 }
 
 #about-3 .container .col-1 .sociais {
     display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 31%;
 }
 
 
-#about-3 .container .col-1 .sociais img {
-    width: 10%;
-    height: 10%;
+
+#about-3 .container .col-1 .sociais a {
+    width: 50%;
+    height: 60%;
 }
 
 
@@ -300,8 +306,16 @@ header .menu a:hover {
 }
 
 
+#about-3 .container .col-2 img { 
+    width: 50%;
+    height: 70%;
+    cursor: pointer;
+    height: 100%;
+}
+
 #about-3 .container .col-3 { 
 
+    
 }
 
 /*responsivel para telas menores. */
