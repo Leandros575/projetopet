@@ -262,47 +262,56 @@ header .menu a:hover {
 
 
 #about-3 { 
-    width: 100%;
     background-color: #eeedeb;
+    margin: 0 auto;
 }
 
 #about-3 .container {
     display: flex;
     justify-content: space-around;
-    width: 1366px;
     padding: 40px 0px 0px 0px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+
+
+#about-3 .container .col-1 img { 
+    width: 50%;
+}
+
+
+#about-3 .container .col-1 .sociais {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+#about-3 .container .col-1 .sociais .a-1 {
+    width: 15%;
+}
+
+
+#about-3 .container .col-1 .sociais .a-2 {
+}
+
+
+
+#about-3 .container .col-1 .sociais .fab {
+    color: #acacac;
 }
 
 
 #about-3 .container .col-1 { 
     display: flex;
-    height: 100%;
-}
-
-#about-3 .container .col-1 img { 
-    width: 50%;
-    height: 34%;
-    margin: 0 auto;
-    height: 100%;
-}
-
-#about-3 .container .col-1 .sociais {
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    width: 31%;
-}
-
-
-
-#about-3 .container .col-1 .sociais a {
-    width: 50%;
-    height: 60%;
 }
 
 
 #about-3 .container .col-2 { 
-
+    padding-right: 75px;
+    margin-right: 75px;
 }
 
 
