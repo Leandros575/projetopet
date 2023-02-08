@@ -157,6 +157,7 @@ header .menu a:hover {
 #about-2 .container { 
     display: flex;
     margin: 0 auto;
+    padding: 25px 0px 0px 0px;
 }
 
 
@@ -179,20 +180,28 @@ header .menu a:hover {
 #about-2 .container .card-1 .card-body h1 { 
     background-color: #4EC1EA;
     text-align:  center;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
     color: #ffffff;
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
-}
-
-.card-text::marker {
-    color: #166FE5;
+    margin: 0%;
 }
 
 
-#about-2 .container .card-1 .card-body p { 
+#about-2 .container .card-1 .card-body span {
+    color: #898989;
+    font-size: 16px;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
 }
 
+#about-2 .container .card-1 .card-body li {
+    color: #f56076;
+    padding: 0px 18px 8px 0px;
+}
+
+/*fim card 1 -------------------------------------*/
 
 
 
@@ -206,28 +215,41 @@ header .menu a:hover {
 
 #about-2 .container .card-2 img { 
     width: 100%;
-
+    
 }
+
+
 
 
 #about-2 .container .card-2 .card-body { 
 }
 
 
+#about-2 .container .card-2 .card-body li {
+    color: #f56076;
+}
+
 
 #about-2 .container .card-2 .card-body h1 { 
     background-color: #4EC1EA;
     text-align: center;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
     color: #ffffff;
+    margin: 0%;
 }
 
 
-#about-2 .container .card-2 .card-body p { 
-
+#about-2 .container .card-2 .card-body span { 
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 1px;
 }
+
+/* fim do card 2 */   
 
 
 #about-2 .container .card-3 { 
@@ -249,20 +271,29 @@ header .menu a:hover {
 }
 
 
+#about-2 .container .card-3 .card-body li{
+    color: #f56076;
+    padding: 4px 0px 0px 0px;
+}
+
+
 #about-2 .container .card-3 .card-body h1 { 
     background-color: #4EC1EA;
     text-align: center;
-    padding: 15px;
+    padding: 15px 0px 15px 0px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
     color: #ffffff;
+    margin: 0%;
 }
 
 
-#about-2 .container .card-3 .card-body p { 
-
+#about-2 .container .card-3 .card-body span { 
+    color: #898989;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
 }
-
 
 
 #about-3 { 
