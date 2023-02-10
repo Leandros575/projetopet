@@ -126,21 +126,30 @@ header .menu a:hover {
 
 
 #about-1 .container .titulo h1 { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: center;
 }
 
 
 #about-1 .container .titulo p { 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 25px;
     font-weight: 400;
-    padding: 0px 0px 48px 0px;
+    padding: 0px 0px 15px 0px;
+    color: #ffffff;
 }
 
 #about-1 .container .titulo .p-2 { 
-    padding: 90px 0px 50px 0px;
+    padding: 45px 0px 50px 0px;
+    color: #5b5a5a;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+
 }
 
 
@@ -157,7 +166,7 @@ header .menu a:hover {
 #about-2 .container { 
     display: flex;
     margin: 0 auto;
-    padding: 25px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
 }
 
 
@@ -316,6 +325,7 @@ header .menu a:hover {
 
 #about-3 .container .col-1 img { 
     width: 50%;
+    margin: 0 auto;
 }
 
 
@@ -357,9 +367,7 @@ header .menu a:hover {
 
 
 #about-3 .container .col-2 { 
-    padding-right: 75px;
-    margin-right: 75px;
-    text-align: center;
+    text-align: end;
 }
 
 
